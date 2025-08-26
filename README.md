@@ -1,16 +1,12 @@
 # MergeCopy
 
-MergeCopy is a lightweight macOS menu bar utility for collecting and consolidating text snippets from your clipboard.
+MergeCopy is a lightweight macOS menu bar utility for collecting and consolidating text snippets from your clipboard. It's designed to simplify gathering context for AI models.
 
 ## How It Works
 
 The GIF below demonstrates the main workflow: activating recording mode, copying text from multiple sources, and then merging it all into the clipboard with a single click.
 
 *[GIF placeholder]*
-
-## Download
-
-You can download the latest version of `MergeCopy` app from the [GitHub Releases page](https://github.com/mmvpm/MergeCopy/releases). Just download the `.zip` archive from the latest release, unpack it, and move `MergeCopy` to your Applications folder.
 
 ## Menu Options
 
@@ -22,7 +18,21 @@ You can download the latest version of `MergeCopy` app from the [GitHub Releases
 *   **📄 Copy to File**: Saves the context to `context.txt` in your temporary directory, copies the file itself to the clipboard, and ends the session.
 *   **🗑 Clear**: Discards the current session and all collected text, then stops recording.
 
-## Installation
+## Download & Run
+
+1.  **Download:** Get the `MergeCopy.zip` file from the [latest GitHub Release](https://github.com/mmvpm/MergeCopy/releases) and unzip it.
+
+2.  **Authorize the App:** Before the first launch, macOS will show a security error ("damaged" or "from an unidentified developer"). This is a standard security measure. To fix this, open the **Terminal** app and run this one-time command:
+    ```bash
+    xattr -d com.apple.quarantine ~/Downloads/MergeCopy.app
+    ```
+    This command tells macOS to trust the application. You only need to do this once.
+
+3.  **Launch:** You can now move `MergeCopy.app` to your **Applications** folder (or any other location) and open it.
+
+*Note: If you prefer not to run the command above, you can build the app from source.*
+
+## Building from Source
 
 To build the `.app` from the source code, follow these steps.
 
