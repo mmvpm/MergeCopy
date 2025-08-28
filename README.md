@@ -1,12 +1,12 @@
 # MergeCopy
 
-MergeCopy is a lightweight macOS menu bar utility for collecting and consolidating text snippets from your clipboard. It's designed to simplify gathering context for AI models.
+MergeCopy is a lightweight macOS menu bar utility for collecting text snippets from your clipboard. It's designed to simplify gathering context for AI models.
 
 ## How It Works
 
-The GIF below demonstrates the main workflow: activating recording mode, copying text from multiple sources, and then merging it all into the clipboard with a single click.
+The GIF below demonstrates the main workflow: activating recording mode, **copying text** from multiple sources, and then **merging it all** into the clipboard with a single click.
 
-*[GIF placeholder]*
+<img src="https://github.com/user-attachments/assets/31083739-295e-466e-8ff1-73a32837e2ba" width="600"/>
 
 ## Menu Options
 
